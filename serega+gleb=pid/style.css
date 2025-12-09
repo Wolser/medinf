@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ecran {
+    height: 100vh;
+    background-image: url(./img/miniature-house-for-real-estate-concepts-and-ecological-construction_492320-527.jpg);
+    background-size: cover;
+}
+
+.head h1 {
+    font-size: 190px;
+    color: white;
+}
+
+.head h2 {
+    color: white;
+}
+
+.head a {
+    color: white;
+}
+
+.head {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Второй слайд */
+#diabet.ecran {
+    background-image: none;
+}
+
+.second-slide {
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 40px;
+    align-items: start;
+}
+
+.image-container {
+    position: relative;
+    height: 80vh;
+
+
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.striped-decoration {
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+    width: 40%;
+    height: 300px;
+    background: repeating-linear-gradient(
+        45deg,
+        #ffffff,
+        #ffffff 10px,
+        #d9d9d9 10px,
+        #d9d9d9 20px
+    );
+    z-index: -1;
+
+}
+
+.content {
+    padding: 40px 30px;
+}
+
+.section-title {
+    font-size: 42px;
+}
+
+.subtitle {
+
+    font-size: 28px;
+    margin: 30px 0 20px;
+}
+
+.symptoms-list {
+    margin-bottom: 25px;
+}
+
+.symptoms-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+/* третий слайд */
+
+#nesah.ecran {
+    background-image: none;
+    margin-left: 200px;
+}
+
+#nesah.second-slide {
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 40px;
+    align-items: start;
+}
+
+
+#nesah .striped-decoration {
+    position: absolute;
+    bottom: -30px;
+    right: 300px;
+    width: 50%;
+    height: 500px;
+    background: repeating-linear-gradient(
+        45deg,
+        #ffffff,
+        #ffffff 10px,
+        #d9d9d9 10px,
+        #d9d9d9 20px
+    );
+    z-index: -1;
+
+}
+
+/* четвертый слайд */
+
+#poch.ecran {
+    background-image: none;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+#poch .slide-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#poch .column {
+    color: black;
+}
+
+#poch .column-title {
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+#poch .subtitle {
+    font-size: 24px;
+    margin: 25px 0 15px;
+    color: black;
+}
+
+#poch p, #poch ul {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+#poch ul {
+    padding-left: 20px;
+}
+
+
+
+/* футер */
+
+footer {
+    padding: 50px;
+    color: white;
+    font-size: 200%;
+    background-color: #3bbdd5;
+    width: 100%;
+    height: 400px;
+}
