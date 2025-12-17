@@ -1,0 +1,23 @@
+header {
+    background-color: #3f8aaa;
+    color: white;
+    height: 600px;
+    padding: 50px;
+    text-align: center;
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+footer {
+    background-color: #3f8aaa;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
